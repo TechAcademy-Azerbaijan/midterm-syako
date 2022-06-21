@@ -10,7 +10,7 @@ prompt.get('input', function (err, result) {
     var n = parseInt(result.input); // 9
     let res = 0
 while(n > 0){
-    res = res + n % 10
+    res = res + (n % 10)
     n = parseInt(n / 10)
 
 }console.log(res);
